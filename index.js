@@ -45,7 +45,7 @@ projects.forEach(project => {
                     <p class="text-gray-500 text-sm mb-5">${project.description}</p>
                     <div class="border-t border-gray-100 pt-4 flex items-center justify-between">
                         <div class="flex gap-2">
-                         ${project.tags.map((tag) => `  <span class="bg-sky-100 text-sky-600 px-3 py-1 rounded-full text-xs">Angular</span>`)}
+                         ${project.tags.map((tag) => ` <span class="bg-sky-100 text-sky-600 px-3 py-1 rounded-full text-xs">${tag}</span>`)}
                         </div>
                         <span class="text-gray-400 text-sm">${project.date}</span>
                     </div>
